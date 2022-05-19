@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   overflow-x: hidden;
   font-family: "Montserrat", sans-serif;
@@ -36,7 +40,11 @@ body {
   top: 0;
   z-index: 10;
 }
-.header .nav-bar ion-icon {
+.header .nav-bar a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+.header .nav-bar a ion-icon {
   font-size: 20px;
 }
 

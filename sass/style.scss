@@ -1,7 +1,5 @@
 @charset "UTF-8";
 
-
-
 *{
     margin: 0;
     padding: 0;
@@ -12,6 +10,10 @@
 
 $background: linear-gradient(90deg, rgba(217,217,217,1) 0%, rgba(255,255,255,1) 58%);
 $font-main: 'Montserrat', sans-serif;
+
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     overflow-x: hidden;
@@ -45,8 +47,12 @@ body {
     top: 0;
     z-index: 10;
 
-    .nav-bar ion-icon {
-        font-size: 20px;
+    .nav-bar a  {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        ion-icon {
+            font-size: 20px;
+        }
     }
 }
 
