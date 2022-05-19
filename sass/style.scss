@@ -20,6 +20,16 @@ body {
     font-family: $font-main;
 }
 
+::-webkit-scrollbar {
+    background-color: #000000;
+    width: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #c2c2c2;
+    border-radius: 10px;
+}
+
 .container {
     width: 100vw;
     height: 100%;
