@@ -325,7 +325,7 @@ body {
         height: 20px;
         background-color: #d0d0d0;
         transform: translateY(0px);
-        animation: loading 4s ease;
+        animation: loading infinite ease;
     }
 
     span:nth-child(2) {

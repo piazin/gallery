@@ -288,7 +288,7 @@ body {
   height: 20px;
   background-color: #d0d0d0;
   transform: translateY(0px);
-  animation: loading 4s ease;
+  animation: loading infinite ease;
 }
 #loading span:nth-child(2) {
   animation: loading 4s ease 0.4s;
@@ -337,6 +337,12 @@ body {
     transform: translate(-50%, -70%);
     transition: 0.5s ease;
     z-index: 10;
+  }
+}
+@media (max-width: 600px) {
+  #container-main-form {
+    width: 350px;
+    right: 30px;
   }
 }
 
