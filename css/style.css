@@ -180,6 +180,12 @@ body {
   text-decoration: none;
   color: cornflowerblue;
 }
+.footer .footer-links li button {
+  border: none;
+  outline: none;
+  color: cornflowerblue;
+  cursor: pointer;
+}
 
 #container-main-form {
   background-color: rgba(255, 255, 255, 0.9843137255);
