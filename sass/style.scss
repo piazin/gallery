@@ -329,11 +329,11 @@ body {
     }
 
     span:nth-child(2) {
-        animation: loading 4s ease .4s;
+        animation: loading infinite ease .4s;
     }
 
     span:nth-child(3) {
-        animation: loading 4s ease .6s;
+        animation: loading infinite ease .6s;
     }
 
 }
