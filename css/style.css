@@ -10,6 +10,7 @@ html {
 }
 
 body {
+  height: 100%;
   overflow-x: hidden;
   font-family: "Montserrat", sans-serif;
   overflow-y: hidden;
@@ -36,7 +37,6 @@ body {
   gap: 20px;
   margin: 15px 0px 40px 0px;
   background-color: linear-gradient(90deg, rgb(217, 217, 217) 0%, rgb(255, 255, 255) 58%);
-  overflow-x: hidden;
 }
 
 .header {
@@ -119,7 +119,12 @@ body {
   transform: translate(-40%, -70%);
   transition: 0.5s ease;
   z-index: 10;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container-img .box-img .abbr ion-icon {
+  font-size: 25px;
 }
 .container-img .box-img:hover .abbr {
   animation: abbr-move 0.5s forwards;
