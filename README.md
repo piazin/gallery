@@ -1,7 +1,7 @@
 # gallery photos
 
 <h1>
-    <a href="https://piazin.netlify.app">🔗 Show</a>
+    <a href="https://piazin.netlify.app">🔗 netlify</a>
 </h1>
 
 <p>🚀 photo gallery</p>
