@@ -1,12 +1,12 @@
 # gallery photos
 
-<h1 align="center">
+<h1>
     <a href="https://piazin.netlify.app">🔗 Show</a>
 </h1>
 
-<p align="center">🚀 photo gallery</p>
+<p>🚀 photo gallery</p>
 
-<h4 align="center"> 
+<h4> 
 	🚧  status 🚀 under construction...  🚧
 </h4>
 
@@ -16,7 +16,7 @@
 - [x] animations
 - [ ] api
 
-<h1 align="center">
+<h1>
   <img alt="NextLevelWeek" title="#NextLevelWeek" src="./img/avatar.png" />
 </h1>
 
