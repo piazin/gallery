@@ -131,6 +131,7 @@
     <footer class="footer">
         <ul class="footer-links">
             <li>Create by <a href="https://www.instagram.com/lucas_souzalfs/" target="_blank" rel="external">Piazin</a></li>
+            <li><button onclick="showForm()">abbout</button></li>
         </ul>
     </footer>
 
@@ -143,6 +144,28 @@
         <span></span>
 
     </div>
+
+    <main id="container-main-form">
+        <button onclick="showForm()" class="btn-close-form"><ion-icon name="close-outline"></ion-icon></button>
+        <h2>Entre em contato comigo</h2>
+        <small>Preencha este formulario abaixo</small>
+        <form action="https://formsubmit.co/ls4803326@gmail.com" method="post" class="container-form">
+            <fieldset class="form-area">
+                <label for="">nome</label>
+                <input type="text" name="name" placeholder="digite seu nome" required>
+                <label for="">email</label>
+                <input type="email" name="email" placeholder="seu email" required>
+            </fieldset>
+            <fieldset class="form-area">
+                <textarea name="message" cols="30" rows="10" placeholder="sua mensagem"></textarea>
+                <input type="hidden" name="_next" value="https://piazin.github.io/gallery/home/index.html">
+                <input type="hidden" name="_subject" value="Formulario de Contato!">
+                <input type="hidden" name="_cc" value="lucassouza@edu.unifil.br">
+                <input type="hidden" name="_captcha" value="false">
+            </fieldset>
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
     <audio src="../audio/X2Download.com - 12 - Yunk Vino Ft. Duzz e Jaya Luuck - Só quando ela me quer (Prod. Rubro) [Visualizer Gif] (128 kbps).mp3" id="audio" type="audio/mpeg"></audio>
 
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>

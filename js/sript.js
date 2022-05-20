@@ -8,13 +8,16 @@ function loading() {
 }
 
 var audio = document.getElementById('audio');
-var isPlay = false;
-
 function playSong() {
     if(audio.paused) {
         audio.play();
     } else {
         audio.pause();
-        isPlay = false;
     }
+}
+
+function showForm() {
+    var form = document.getElementById('container-main-form');
+
+    form.classList.toggle('active');
 }
