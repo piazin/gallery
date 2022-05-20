@@ -16,10 +16,6 @@
 - [x] animations
 - [ ] api
 
-<h1>
-  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./img/avatar.png" />
-</h1>
-
 ### technology used
 
 <p align="left">
