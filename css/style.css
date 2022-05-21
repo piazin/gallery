@@ -250,13 +250,14 @@ body {
   color: rgb(0, 0, 0);
 }
 #container-main-form .container-form .form-area input:focus, #container-main-form .container-form .form-area textarea:focus {
-  background-color: rgba(86, 241, 72, 0.404);
+  background-color: rgba(162, 241, 255, 0.171);
+  border: 1px solid rgba(0, 0, 0, 0.425);
 }
 #container-main-form .container-form button {
   width: 120px;
   height: 40px;
   margin: 0 auto;
-  background-color: rgb(86, 241, 72);
+  background-color: rgb(162, 241, 255);
   border: none;
   outline: none;
   border-radius: 10px;

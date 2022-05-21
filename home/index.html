@@ -74,7 +74,7 @@
                 </div>
                 <img class="media" src="../img/20220206_131626.jpg" alt="">
             </figure>
-            <figure class="box-img" data-aos="zoom-in">
+            <figure class="box-img" data-aos="zoom-in" ondblclick="playSong2()">
                 <span class="abbr">
                     <ion-icon name="pin-outline"></ion-icon>
                     home
@@ -150,9 +150,9 @@
         <form action="https://formsubmit.co/ls4803326@gmail.com" method="post" class="container-form">
             <fieldset class="form-area">
                 <label for="">nome</label>
-                <input type="text" name="name" placeholder="digite seu nome" required>
+                <input type="text" name="name" placeholder="digite seu nome" autocomplete="off" required>
                 <label for="">email</label>
-                <input type="email" name="email" placeholder="seu email" required>
+                <input type="email" name="email" placeholder="seu email" autocomplete="off" required>
             </fieldset>
             <fieldset class="form-area">
                 <textarea name="message" cols="30" rows="10" placeholder="sua mensagem"></textarea>
@@ -164,7 +164,8 @@
             <button type="submit">Enviar</button>
         </form>
     </main>
-    <audio src="../audio/X2Download.com - 12 - Yunk Vino Ft. Duzz e Jaya Luuck - Só quando ela me quer (Prod. Rubro) [Visualizer Gif] (128 kbps).mp3" id="audio" type="audio/mpeg"></audio>
+    <audio src="../audio/X2Download.com - 12 - Yunk Vino Ft. Duzz e Jaya Luuck - Só quando ela me quer (Prod. Rubro) [Visualizer Gif] (128 kbps).mp3" id="yunk-audio" type="audio/mpeg"></audio>
+    <audio src="../audio/X2Download.com - $UICIDEBOY$ - CLOUDS AS WITNESSES (128 kbps).mp3" id="suiceboys"></audio>
 
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>

@@ -7,17 +7,31 @@ function loading() {
     }, 4000)
 }
 
-var audio = document.getElementById('audio');
+
 function playSong() {
-    if(audio.paused) {
-        audio.play();
+    audios.yunk.volume = 0.1;
+    if(audios.yunk.paused) {
+        audios.yunk.play();
     } else {
-        audio.pause();
+        audios.yunk.pause();
+    }
+}
+
+function playSong2() {
+    audios.suiceboys.volume = 0.1;
+    if(audios.suiceboys.paused) {
+        audios.suiceboys.play();
+    } else {
+        audios.suiceboys.pause();
     }
 }
 
 function showForm() {
     var form = document.getElementById('container-main-form');
-
     form.classList.toggle('active');
+}
+
+var audios = {
+    yunk: document.getElementById('yunk-audio'),
+    suiceboys: document.getElementById('suiceboys')
 }
